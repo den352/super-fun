@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.blacklist_wallet]
+path = 'contracts/blacklist_wallet.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.file_tagging]
 path = 'contracts/file_tagging.clar'
 clarity_version = 2
